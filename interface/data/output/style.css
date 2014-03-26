@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	font-family: sans-serif;
+}
+
+#logo{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	z-index: 100;
+}
+
+#logo img{
+	width: 150px;
+	height: auto;
+}
+
+#subject-info{
+	position: absolute;
+	bottom: 0px;
+	left: -500px;
+	min-height: 400px;
+	min-width: 200px;
+	max-width: 200px;
+	background-color: rgba(225, 225, 225, .9);
+	color: gray;
+	margin-bottom: 5px;
+	padding-left: 5px;
+
+
+	-webkit-transition: left 500ms ease;
+	-moz-transition: left 500ms ease;
+	-ms-transition: left 500ms ease;
+	-o-transition: left 500ms ease;
+	transition: left 500ms ease;
+
+}
+
+
+#about{
+	position: absolute;
+	right: 0;
+	bottom: -245px;
+	background-color: rgba(225, 225, 225, .9);
+	color: gray;
+	max-width: 200px;
+	padding: 5px;
+	font-size: 13px;
+	height: 260px;
+	-webkit-transition: bottom 500ms ease;
+	-moz-transition: bottom 500ms ease;
+	-ms-transition: bottom 500ms ease;
+	-o-transition: bottom 500ms ease;
+	transition: bottom 500ms ease;}
+#about a{
+	color: gray;
+}
+#about-label{
+	cursor: pointer;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+
+.subject-info-titles{
+	color: gray;
+	max-width: 200px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-size: 12px;
+	display: block;
+
+}
+
+
+	
+h2{
+	margin: 0;
+	padding: 0;
+}
+#h2-holder{
+	text-align: center;
+}
+
+#search{
+	color: white;
+	border: none;
+	background-color: rgba(225, 225, 225, .2);
+	font-size: 18px;
+	position: absolute;
+	right: 5px;
+	top: 100px;
+	z-index: 100;
+	width: 150px;	
+	-webkit-transition: width 500ms ease;
+	-moz-transition: width 500ms ease;
+	-ms-transition: width 500ms ease;
+	-o-transition: width 500ms ease;
+	transition: width 500ms ease;
+
+}
+
+#search:focus{
+
+	width: 500px;
+	height: 30px;
+
+	font-size: 24px;
+}
+
+#search-results{
+	display: none;
+	position: absolute;
+	color:white;
+	font-size: 24px;
+	width: 490px;
+	min-height: 250px;
+	background-color: rgba(225, 225, 225, .2);
+	right: 5px;
+	top: 135px;
+	padding: 5px;
+
+}
+#search-results a{
+	color: white;
+	text-decoration: none;
+}
+
+#pointer{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 50px;
+	background-color: blue
+}
+
+

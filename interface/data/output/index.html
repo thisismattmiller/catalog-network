@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>NYPL Subject Heading Network</title> 
+  </head>
+  <body>
+
+
+<div id="openseadragon"></div>
+
+
+<div id="logo"><a href="http://www.nypl.org/collections/labs"><img src="logo.png"></a>
+</div>
+
+<input id="search" type="text" placeholder="search...">
+<div id="search-results"></div>
+<div id="subject-info">
+  <div id="h2-holder">
+    <h2>Subject</h2>
+  </div>
+  <br>
+  <span>Titles for this subject</span>
+  <div class="subject-info-titles-holder">
+
+  </div>
+</div>
+
+  <div id="about">
+    <div id="about-label">About</div>
+    <div>
+  This is an early prototype for an interface into exploring the NYPL catalog. By compiling shared MARC Subject Headings into nodes of a network and simulating how they self organize this tool provides a novel look at NYPL resources. Click the search field above to look for a specific subject and click on the nodes (circles) to link back to the catalog. The entire tool is in active development, this is a first look at new possible interfaces to the library. Built by Matt Miller at <a href="http://www.nypl.org/collections/labs">NYPL Labs</a>. March 2014</div>
+
+  </div>
+
+<!-- <div id="pointer"></div> -->
+
+<script src="openseadragon.min.js"></script>
+<script src="openseadragon-imaginghelper.min.js"></script>
+<script src="jquery-1.11.0.min.js"></script>
+<script src="network.js"></script>
+
+
+
+  </body>
+</html>
