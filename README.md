@@ -6,9 +6,13 @@ Turn MARC records into a subject heading network
 More development and documentation is needed. But the basic order to run things would be
 
 marc2gexf/generate_gexf.py
+
 java -jar render/dist/catalog-network.jar (need to pass files, and the render options are hard coded, TODO!)
+
 interface/process.py
+
 interface/build_index_documents.py
+
 interface/build_index.py
 
 
