@@ -195,15 +195,13 @@ class subjectNetwork:
 
 		self.getFileNames()
 
-		#self.processFile(self.dataPath+'marc_bib_12.mrc')
-
 		for a in self.marcFiles:
 
 			self.processFile(a)
 
 
 
-		#self.buildGraph()
+		self.buildGraph()
 
 		self.buildSubjectTitles()
 
