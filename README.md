@@ -1,3 +1,6 @@
+The gehpi rendering aspect of this project has been split off to: https://github.com/thisismattmiller/catalog-network-java check that repo for update catalog-network.jar
+
+
 catalog-network
 ===============
 
@@ -8,6 +11,7 @@ More development and documentation is needed. But the basic order to run things 
 marc2gexf/generate_gexf.py
 
 java -jar render/dist/catalog-network.jar (need to pass files, and the render options are hard coded, TODO!)
+
 
 interface/process.py
 
